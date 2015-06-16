@@ -11,7 +11,20 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
-
+	"BGImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/loadingscreen_bg"
+		"scaleImage"	"1"
+	}
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -91,7 +104,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"border"		"TFThinLineBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"	"15 15 15 150"
 			}
 	
 			"ActualLabel"
@@ -127,7 +141,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"15 15 15 150"
 		}
 
 		"Title"
@@ -146,7 +161,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 181 50 255"
+			"fgcolor_override" "15 255 255 255"
 		}
 		"MapAuthors"
 		{
@@ -203,7 +218,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "173 168 148 255"
+		"fgcolor_override" "TanLight"
 	}					
 	"MapLabel"
 	{
@@ -213,14 +228,15 @@
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"
-		"ypos"			"55"
+		"ypos"			"48"
 		"zpos"			"50"
 		"wide"			"350"
-		"tall"			"35"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "TanLight"
 	}
 	"MapType"
 	{
@@ -238,6 +254,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "TanLight"
 	}					
 	"StatData"
 	{
@@ -267,7 +284,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"ScoreboardVerySmall"
+				"font"			"CerbeticaBold12"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
@@ -290,7 +307,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"ScoreboardVerySmall"
+				"font"			"CerbeticaBold12"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
@@ -312,7 +329,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"ScoreboardVerySmall"
+				"font"			"CerbeticaBold12"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -415,7 +432,7 @@
 			"ypos"			"165"
 			"ypos_hidef"			"22"
 			"ypos_lodef"			"22"
-			"wide"			"406"
+			"wide"			"600"
 			"wide_hidef"	"566"
 			"wide_lodef"	"566"
 			"tall"			"300"
@@ -425,7 +442,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"15 15 15 150"
 		}
 		"AveragesLabel"
 		{
@@ -510,7 +528,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"162 148 135 255"
+			"fillcolor"		"StatBar1"	
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -531,14 +549,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"162 148 135 255"
+			"fillcolor"		"StatBar1"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -559,7 +577,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -582,7 +600,7 @@
 			"fieldName"		"ClassLabel1"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -659,7 +677,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"93 60 27 255"
+			"fillcolor"		"StatBar2"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -680,14 +698,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"93 60 27 255"
+			"fillcolor"		"StatBar2"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -708,7 +726,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -731,7 +749,7 @@
 			"fieldName"		"ClassLabel2"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"	"ScoreboardVerySmall"
+			"font_lodef"	"CerbeticaBold12"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -808,7 +826,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"134 93 39 255"
+			"fillcolor"		"StatBar3"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -829,14 +847,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"134 93 39 255"
+			"fillcolor"		"StatBar3"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -857,7 +875,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -880,7 +898,7 @@
 			"fieldName"		"ClassLabel3"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -957,7 +975,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"207 147 95 255"
+			"fillcolor"		"StatBar4"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -978,14 +996,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"207 147 95 255"
+			"fillcolor"		"StatBar4"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1006,7 +1024,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1029,7 +1047,7 @@
 			"fieldName"		"ClassLabel4"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1106,7 +1124,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"226 184 146 255"
+			"fillcolor"		"StatBar5"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -1127,14 +1145,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"226 184 146 255"
+			"fillcolor"		"StatBar5"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1155,7 +1173,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1178,7 +1196,7 @@
 			"fieldName"		"ClassLabel5"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1255,7 +1273,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"162 148 135 255"
+			"fillcolor"		"StatBar6"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -1276,14 +1294,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"162 148 135 255"
+			"fillcolor"		"StatBar6"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1304,7 +1322,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1327,7 +1345,7 @@
 			"fieldName"		"ClassLabel6"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1404,7 +1422,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"93 60 27 255"
+			"fillcolor"		"StatBar7"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -1425,14 +1443,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"93 60 27 255"
+			"fillcolor"		"StatBar7"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1453,7 +1471,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1476,7 +1494,7 @@
 			"fieldName"		"ClassLabel7"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1553,7 +1571,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"134 93 39 255"
+			"fillcolor"		"StatBar8"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1574,14 +1592,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"134 93 39 255"
+			"fillcolor"		"StatBar8"	
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1602,7 +1620,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1625,7 +1643,7 @@
 			"fieldName"		"ClassLabel8"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1702,7 +1720,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"207 147 95 255"
+			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1723,14 +1741,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"207 147 95 255"
+			"fillcolor"		"StatBar9"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1751,7 +1769,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1774,7 +1792,7 @@
 			"fieldName"		"ClassLabel9"
 			"font"			"ScoreboardSmall"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"CerbeticaBold12"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1795,9 +1813,9 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RecordsBG"
-			"xpos"			"c+115"
+			"xpos"			"9999"
 			"xpos_hidef"			"c+95"
-			"ypos"			"165"
+			"ypos"			"9999"
 			"ypos_hidef"			"115"
 			"wide"			"200"
 			"wide_hidef"			"225"
@@ -1812,13 +1830,14 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"TFThinLineBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"	"15 15 15 150"
 		}
 		"RecordsLabel1"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"ScoreboardMediumSmall"
+			"font"			"ScoreboardMedium"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1879,7 +1898,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"CerbeticaBold12"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
@@ -2614,7 +2633,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"ScoreboardVerySmall"
+		"font"			"CerbeticaBold12"
 		"font_hidef"	"Default"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"

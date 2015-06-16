@@ -10,7 +10,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"PassedIcon"
 		{
@@ -18,8 +18,8 @@
 			"fieldName"		"PassedIcon"
 			"xpos"			"10"
 			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -30,8 +30,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PassedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
+			"xpos"			"22"
+			"ypos"			"7"
 			"wide"			"98"
 			"tall"			"17"
 			"visible"		"1"
@@ -76,7 +76,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 		
 		"Header"
 		{
@@ -94,7 +94,7 @@
 			"brighttext"		"0"
 			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"256 0 0 100"
 		}
 		
 		"Issue"
@@ -126,7 +126,7 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"128 128 128 0"
 			"zpos"			"0"
 		}
 		
@@ -139,7 +139,7 @@
 			"xpos"			"10"
 			"ypos"			"57"
 			"wide"			"130"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -158,9 +158,9 @@
 			"xpos"			"10"
 			"ypos"			"57"
 			"wide"			"130"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 50"
 			"visible"		"1"
 		}
 		
@@ -171,7 +171,7 @@
 			"xpos"			"28"
 			"ypos"			"113"
 			"wide"			"16"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -209,9 +209,9 @@
 			"xpos"			"10"
 			"ypos"			"73"
 			"wide"			"130"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 50"
 			"visible"		"1"
 		}
 		
@@ -219,7 +219,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"Option2CountLabel"
-			"xpos"			"74"
+			"xpos"			"64"
 			"ypos"			"113"
 			"wide"			"16"
 			"tall"			"16"
@@ -260,9 +260,9 @@
 			"xpos"			"10"
 			"ypos"			"89"
 			"wide"			"130"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 50"
 			"visible"		"0"
 		}
 		
@@ -292,9 +292,9 @@
 			"xpos"			"10"
 			"ypos"			"105"
 			"wide"			"130"
-			"tall"			"16"
+			"tall"			"13"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"88 119 140 50"
 			"visible"		"0"
 		}
 		
@@ -339,7 +339,7 @@
 			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"128 128 128 0"
 			"zpos"			"0"
 		}
 		
@@ -386,13 +386,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteFailed"
-		"xpos"			"10"
+		"xpos"			"20"
 		"ypos"			"c-80"
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -400,8 +400,8 @@
 			"fieldName"		"FailedIcon"
 			"xpos"			"10"
 			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -412,8 +412,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
+			"xpos"			"22"
+			"ypos"			"7"
 			"wide"			"80"
 			"tall"			"17"
 			"visible"		"1"
@@ -458,7 +458,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		//"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -466,8 +466,8 @@
 			"fieldName"		"FailedIcon"
 			"xpos"			"10"
 			"ypos"			"10"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -478,8 +478,8 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailedTitle"
-			"xpos"			"32"
-			"ypos"			"10"
+			"xpos"			"22"
+			"ypos"			"7"
 			"wide"			"98"
 			"tall"			"17"
 			"visible"		"1"
@@ -527,7 +527,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
+		//"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
@@ -619,7 +619,7 @@
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
-			"wide"				"235"
+			"wide"				"205"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -645,16 +645,16 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"75"
+			"xpos"		"85"
 			"ypos"		"275"
-			"wide"		"160"
+			"wide"		"100"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
-			"labelText"		"#TF_call_vote"
+			"labelText"		"Call Vote"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -666,9 +666,9 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"240"
+			"xpos"		"190"
 			"ypos"		"275"
-			"wide"		"80"
+			"wide"		"100"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"

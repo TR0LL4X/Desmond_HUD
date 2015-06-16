@@ -87,8 +87,8 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -110,8 +110,8 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -135,7 +135,7 @@
 		"wide"			"100"
 		"wide_minmode"	"52"
 		"tall"			"200"
-		"tall_minmode"	"102"
+		"tall_minmode"	"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -276,10 +276,10 @@
 				"fov"			"20"
 				"angles_x"		"-5"
 				"angles_x_minmode"	"3"
-				"angles_y"		"178"
+				"angles_y"		"300"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-5"
+				"origin_y"		"0"
 				"origin_z"		"-96"
 				"origin_z_minmode"	"-60"
 			}
@@ -314,7 +314,7 @@
 				"angles_x"		"-5"
 				"angles_x_minmode"	"3"
 				"angles_y"		"160"
-				"angles_z"		"0"
+				"angles_z"		"0	"
 				"origin_x"		"160"
 				"origin_y"		"0"
 				"origin_y_minmode"	"-3"

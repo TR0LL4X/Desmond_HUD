@@ -214,8 +214,8 @@
 		"zpos"			"-99"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
@@ -225,8 +225,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
+		"ypos"			"-800000"
+		"zpos"			"-9999999"
 		"wide"			"600"
 		"tall"			"600"
 		"visible"		"1"
@@ -243,7 +243,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"120"
-		"visible"		"1"
+		"visible"		"0"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
@@ -263,8 +263,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"235 227 203 255"
 	}
 	
@@ -1478,7 +1478,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -1496,8 +1496,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"235 227 203 255"
 
 	}		
@@ -1511,7 +1511,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -1529,8 +1529,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override"	"235 227 203 255"
 
 	}
@@ -1544,7 +1544,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"38"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -2281,8 +2281,8 @@
 		"zpos"			"-50"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}				
@@ -2295,8 +2295,8 @@
 		"zpos"			"-5-"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	

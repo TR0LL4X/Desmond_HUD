@@ -1,14 +1,27 @@
-"chapters"
-{
-	1	"background_2fort"
-	2	"background_gravelpit"
-	3	"background_upward"
-	4	"background_mvm"
-}
-"BackgroundMaps"
-{
-	1	"background_2fort"
-	2	"background_gravelpit"
-	3	"background_upward"
-	4	"background_mvm"
-}
+    "chapters"
+    {
+            1       "background_upward"
+            2       "background_upward"
+            3       "background_2fort"
+            4       "background_2fort"
+            5       "background_mvm"
+            6       "background_mvm"
+			7       "background_gravelpit"
+            8       "background_gravelpit"
+			9       "background_xmas11"
+            10       "background_xmas11"
+    }
+    "BackgroundMaps"
+    {
+            1       "background_upward"
+            2       "background_upward"
+            3       "background_2fort"
+            4       "background_2fort"
+            5       "background_mvm"
+            6       "background_mvm"
+			7       "background_gravelpit"
+            8       "background_gravelpit"
+			9       "background_xmas11"
+            10       "background_xmas11"
+    }
+
