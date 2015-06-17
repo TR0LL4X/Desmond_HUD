@@ -8,8 +8,8 @@
             6       "background_mvm"
 			7       "background_gravelpit"
             8       "background_gravelpit"
-			9       "background_xmas11"
-            10       "background_xmas11"
+			9       "title_team"
+            10       "title_team"
     }
     "BackgroundMaps"
     {
@@ -21,7 +21,7 @@
             6       "background_mvm"
 			7       "background_gravelpit"
             8       "background_gravelpit"
-			9       "background_xmas11"
-            10       "background_xmas11"
+			9       "title_team"
+            10       "title_team"
     }
 
